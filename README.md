@@ -8,49 +8,54 @@ In this project, let's build a **Gradient Generator** app by applying the concep
 </div>
 <br/>
 
-### Design Files
 
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/gradient-generator-sm-output-v0.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/gradient-generator-lg-output-v0.png)
-
-</details>
-
-### Set Up Instructions
-
-<details>
 <summary>Click to view</summary>
 
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
-</details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
+## 🚀 Features
+
+- Select gradient direction (Top, Bottom, Right, Left)
+- Choose "from" and "to" colors using color pickers
+- Real-time CSS gradient preview
+- Responsive and styled using `styled-components`
+
+---
+
+## 📂 Folder Structure
+
+
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/gradient-generator.git
+   cd gradient-generator
+
 <br/>
+🧪 Testing Criteria
+✅ Initially, the selected gradient direction is Top
+✅ Default colors are #8ae323 and #014f7b
+✅ Clicking "Generate" applies the selected gradient to the background
+✅ Active direction button has opacity: 1, inactive ones opacity: 0.5
+✅ Container element has data-testid="gradientGenerator"
 
-The app must have the following functionalities
+🧰 Built With
+React
 
-- Initially, the selected gradient direction should be the first value in the given `gradientDirectionsList`
-- The initial values for the HTML input elements with type color should be **#8ae323** and **#014f7b** respectively
-- When the values are provided for both the input elements with type color, then provided values should be the text content for the respective paragraph elements
-- When the **Generate** button is clicked after selecting the direction and picking the colors, the background of the app should have a linear gradient with the selected direction and colors provided
+styled-components
 
-- The `GradientGenerator` component will consist `gradientDirectionsList`. It consists of a list of gradient directions objects with the following properties in each gradient directions object
+CSS Linear Gradients
 
-  |    Key      | Data Type |
-  | :--------:  | :-------: |
-  | directionId |  String   |
-  |    value    |  String   |
-  | displayText |  string   |
+JavaScript (ES6)
 
-</details>
 
-<details>
+
 <summary>Components Structure</summary>
 
 <br/>
@@ -59,9 +64,8 @@ The app must have the following functionalities
 </div>
 <br/>
 
-</details>
 
-<details>
+
 <summary>Implementation Files</summary>
 <br/>
 
@@ -71,46 +75,15 @@ Use these files to complete the implementation:
 - `src/components/GradientGenerator/styledComponents.js`
 - `src/components/GradientDirectionItem/index.js`
 - `src/components/GradientDirectionItem/styledComponents.js`
-</details>
 
-### Quick Tips
 
-<details close>
-<summary>Click to view</summary>
-<br>
 
-- The HTML input element with the type **color** is designed for the user to select the **color** from a color picker.
 
-  ```jsx
-  <input type="color" />
-  ```
 
-- You can use the CSS **opacity** property to set the degree of transparency of an element. It has a value in the range of 0 to 1 inclusive.
-
-  ```
-   opacity: 0.5;
-  ```
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The HTML container element for the linear gradient values are applied should have `data-testid` as **gradientGenerator**
-- When a gradient direction button is active then the button should have the CSS property opacity with the value **1**
-- When a gradient direction button is inactive then the button should have the CSS property opacity with the value **0.5**
-
-</details>
 
 ### Resources
 
-<details>
+
 <summary>Colors</summary>
 
 <br/>
@@ -123,18 +96,13 @@ Use these files to complete the implementation:
 <div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
 <div style="background-color: #00c9b7; width: 150px; padding: 10px; color: black">Hex: #00c9b7</div>
 
-</details>
 
-<details>
+
+
 <summary>Font-families</summary>
 
 - Roboto
 
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+- 
+📄 License
+This project is open source and available under the MIT License.
