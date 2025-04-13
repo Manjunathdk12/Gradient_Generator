@@ -121,6 +121,5 @@ Use these files to complete the implementation:
 
 - Roboto
 
-- 
 📄 License
 This project is open source and available under the MIT License.
