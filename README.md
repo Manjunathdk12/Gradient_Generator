@@ -26,23 +26,23 @@ Install dependencies
 
 ## 📂 Folder Structure
 
-gradient-generator/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── GradientGenerator/
-│   │   │   ├── index.js
-│   │   │   └── styledComponents.js
-│   │   ├── GradientDirectionItem/
-│   │   │   ├── index.js
-│   │   │   └── styledComponents.js
-│   ├── utils/
-│   │   └── constants.js
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── package.json
+gradient-generator/<br/>
+├── public/<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── index.html<br/>
+├── src/<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── components/<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── GradientGenerator/<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── index.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── styledComponents.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── GradientDirectionItem/<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── index.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── styledComponents.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── utils/<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── constants.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── App.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;├── index.js<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── index.css<br/>
+├── package.json<br/>
 └── README.md
 
 
