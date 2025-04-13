@@ -8,8 +8,8 @@ In this project, let's build a **Gradient Generator** app by applying the concep
 </div>
 <br/>
 
+Install dependencies
 
-<summary>Click to view</summary>
 
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
@@ -26,6 +26,24 @@ In this project, let's build a **Gradient Generator** app by applying the concep
 
 ## 📂 Folder Structure
 
+gradient-generator/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── GradientGenerator/
+│   │   │   ├── index.js
+│   │   │   └── styledComponents.js
+│   │   ├── GradientDirectionItem/
+│   │   │   ├── index.js
+│   │   │   └── styledComponents.js
+│   ├── utils/
+│   │   └── constants.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
 
 
 ---
